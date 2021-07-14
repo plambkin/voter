@@ -51,14 +51,54 @@
 
 <main class="container mx-auto max-w-custom flex">
     <div class="w-70 mr-5">
-        Add idea form goes here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi corporis cumque
-        dignissimos dolorum earum est et eum expedita harum, hic, inventore magnam maiores modi natus officiis quas,
-        quasi tempora temporibus ullam ut! Necessitatibus neque nobis officia repellendus similique? Aliquid assumenda
-        eius laudantium natus nulla quas quia ut. Ab doloribus esse est ex excepturi id inventore laboriosam, maiores
-        molestias nostrum, saepe vel, vero. Culpa dolorem, explicabo inventore magni molestiae perferendis quae qui! Ad
-        atque blanditiis corporis cumque dolore doloremque dolorum earum excepturi, ipsum itaque, libero nesciunt nobis
-        obcaecati quasi quis reiciendis similique soluta tempore. Incidunt iste repudiandae voluptates voluptatum?
-        Aspernatur, incidunt!
+        <div class="bg-white border-2 border-blue rounded-xl mt-16">
+            <div class="text-center px-6 py-2 pt-6">
+                <h3 class="font-semibold text-base">Add an idea</h3>
+                <p class="text-xs mt-4"> Let us know what you would like and we will take a look</p>
+            </div>
+            <form action="#" method="POST" class="space-y-4 px-4 py-6">
+                <div>
+                    <input type="text"
+                           class="w-full bg-gray-100 text-sm border-none rounded-xl placeholder-gray-900 px-4 py-2"
+                           placeholder="Your idea">
+                </div>
+                <div>
+                    <select name="category_add" id="category_add"
+                            class="w-full bg-gray-100 text-sm border-none text-sm rounded-xl px-4 py-2">
+                        <option value="Category One">Category One</option>
+                        <option value="Category Two">Category Two</option>
+                        <option value="Category Three">Category Three</option>
+                        <option value="Category Four">Category Four</option>
+                    </select>
+                </div>
+                <div>
+                    <textarea name="idea" id="idea" cols="30" rows="4"
+                              class="w-full bg-gray-100 border-none rounded-xl placeholder-gray-900 text-sm px-4 py-2"
+                              placeholder="Describe your idea"></textarea>
+                </div>
+                <div class="flex items-center justify-between space-x-3">
+                    <button type="button"
+                            class="flex items-center justify-center w-1/2 h-11 text-xs bg-gray-200 font-semibold rounded-xl border border-gray-200 transition duration-150 ease-in hover:border-gray-400 px-6 py-3">
+                        <svg class="h-6 w-5 transform -rotate-45 text-gray-600" fill="none" viewBox="0 0 24 24"
+                             stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13"/>
+                        </svg>
+
+                        <span class="ml-1">
+                            Attach
+                        </span>
+                    </button>
+                    <button type="submit"
+                            class="flex items-center justify-center w-1/2 h-11 text-xs  text-white bg-blue font-semibold rounded-xl border border-blue transition duration-150 ease-in hover:bg-blue-hover px-6 py-3">
+
+                        <span class="ml-1">
+                            Submit
+                        </span>
+                    </button>
+                </div>
+            </form>
+        </div>
     </div>
     <div class="w-175">
         <nav class="flex items-center justify-between text-xs">

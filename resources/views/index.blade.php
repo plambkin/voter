@@ -47,13 +47,16 @@
                     </div>
                 </div>
             </div>
-            <div class="flex px-2 py-6">
-                <a href="#" class="flex-none">
-                    <img src="https://source.unsplash.com/200*200/?face&crop=face&v=1" alt="avatar"
-                         class="w-14 ht-14 rounded-xl">
+            <div class="flex flex-1 px-2 py-6">
+                <div class="flex-none">
+                    <a href="#" class="flex-none">
+                        <img src="https://source.unsplash.com/200*200/?face&crop=face&v=1" alt="avatar"
+                             class="w-14 ht-14 rounded-xl">
 
-                </a>
-                <div class="mx-4">
+                    </a>
+                </div>
+
+                <div class="w-full mx-4">
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline"> A random title can go here</a>
                     </h4>
@@ -88,8 +91,10 @@
                                           d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"/>
                                 </svg>
                                 <ul class="absolute w-44 text-left font-semibold bg-white shadow-dialog rounded-xl py-3 ml-8">
-                                    <li><a href="#" class="hover:bg-gray-100 px-5 py-3 transition duration-150 ease-in">Mark as Spam</a></li>
-                                    <li><a href="#" class="hover:bg-gray-100 px-5 py-3 transition duration-150 ease-in">Delete Post</a></li>
+                                    <li><a href="#" class="hover:bg-gray-100 px-5 py-3 transition duration-150 ease-in">Mark
+                                            as Spam</a></li>
+                                    <li><a href="#" class="hover:bg-gray-100 px-5 py-3 transition duration-150 ease-in">Delete
+                                            Post</a></li>
                                 </ul>
                             </button>
                         </div>
@@ -154,8 +159,10 @@
                                           d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"/>
                                 </svg>
                                 <ul class="absolute w-44 text-left font-semibold bg-white shadow-dialog rounded-xl py-3 ml-8">
-                                    <li><a href="#" class="hover:bg-gray-100 px-5 py-3 transition duration-150 ease-in">Mark as Spam</a></li>
-                                    <li><a href="#" class="hover:bg-gray-100 px-5 py-3 transition duration-150 ease-in">Delete Post</a></li>
+                                    <li><a href="#" class="hover:bg-gray-100 px-5 py-3 transition duration-150 ease-in">Mark
+                                            as Spam</a></li>
+                                    <li><a href="#" class="hover:bg-gray-100 px-5 py-3 transition duration-150 ease-in">Delete
+                                            Post</a></li>
                                 </ul>
                             </button>
                         </div>
@@ -219,8 +226,10 @@
                                           d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"/>
                                 </svg>
                                 <ul class="absolute w-44 text-left font-semibold bg-white shadow-dialog rounded-xl py-3 ml-8">
-                                    <li><a href="#" class="hover:bg-gray-100 px-5 py-3 transition duration-150 ease-in">Mark as Spam</a></li>
-                                    <li><a href="#" class="hover:bg-gray-100 px-5 py-3 transition duration-150 ease-in">Delete Post</a></li>
+                                    <li><a href="#" class="hover:bg-gray-100 px-5 py-3 transition duration-150 ease-in">Mark
+                                            as Spam</a></li>
+                                    <li><a href="#" class="hover:bg-gray-100 px-5 py-3 transition duration-150 ease-in">Delete
+                                            Post</a></li>
                                 </ul>
                             </button>
                         </div>
@@ -284,8 +293,10 @@
                                           d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"/>
                                 </svg>
                                 <ul class="absolute w-44 text-left font-semibold bg-white shadow-dialog rounded-xl py-3 ml-8">
-                                    <li><a href="#" class="hover:bg-gray-100 px-5 py-3 transition duration-150 ease-in">Mark as Spam</a></li>
-                                    <li><a href="#" class="hover:bg-gray-100 px-5 py-3 transition duration-150 ease-in">Delete Post</a></li>
+                                    <li><a href="#" class="hover:bg-gray-100 px-5 py-3 transition duration-150 ease-in">Mark
+                                            as Spam</a></li>
+                                    <li><a href="#" class="hover:bg-gray-100 px-5 py-3 transition duration-150 ease-in">Delete
+                                            Post</a></li>
                                 </ul>
                             </button>
                         </div>
@@ -294,7 +305,6 @@
             </div>
 
         </div>{{-- end idea container --}}
-
 
 
     </div> {{--    end ideas container--}}
