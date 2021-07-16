@@ -13,6 +13,9 @@
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
+    @livewireStyles
+
+
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
@@ -49,9 +52,9 @@
     </a>
 </header>
 
-<main class="container mx-auto max-w-custom flex">
+<main class="container  mx-auto max-w-custom flex">
     <div class="w-70 mr-5">
-        <div class="bg-white border-2 border-blue rounded-xl mt-16">
+        <div class="bg-white sticky top-8 border-2 border-blue rounded-xl mt-16">
             <div class="text-center px-6 py-2 pt-6">
                 <h3 class="font-semibold text-base">Add an idea</h3>
                 <p class="text-xs mt-4"> Let us know what you would like and we will take a look</p>
@@ -124,5 +127,8 @@
         </div>
     </div>
 </main>
+
+@livewireScripts
+
 </body>
 </html>
